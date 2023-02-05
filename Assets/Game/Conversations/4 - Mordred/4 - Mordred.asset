@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 4 - Mordred
+  m_EditorClassIdentifier: 
+  narrative: 'Here''s the deal. It''s been a while since you''ve been around, and
+    things have been running just fine. Don''t go rocking the boat, got it? '
+  responses:
+  - node: {fileID: 11400000, guid: f1ea60bb27f4ed74ba3b6b3118b31525, type: 2}
+    response: Yeah...sure. Got it.
+  - node: {fileID: 11400000, guid: f9c09d9c52672054999553852bca1df9, type: 2}
+    response: Why? What should I do?
+  events: []
+  occasions: []

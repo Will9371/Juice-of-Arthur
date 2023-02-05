@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 8 - Lancelot (6-1) (7-1)
+  m_EditorClassIdentifier: 
+  narrative: "I appreciate the trust you have for your lords, and yet I cannot help
+    but disagree with your approach to ruling the kingdom. For I don\u2019t believe
+    that the lords can always be trusted to make wise decisions on their own. I have
+    seen the way sir Kay and sir Bors quarrel and it is clear to me that much of
+    the kingdom is overseen by confused or selfish vassals who require guidance."
+  responses:
+  - node: {fileID: 11400000, guid: 5fa63a0727a76cb4ead266bd731fc1ce, type: 2}
+    response: I see. Very well.
+  events: []
+  occasions:
+  - {fileID: 11400000, guid: 321d518eb5bdf184491900a9bb5e0b8f, type: 2}

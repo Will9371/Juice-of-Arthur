@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50ac2f5b44bb13c41b9e4b7c23792292, type: 3}
+  m_Name: Conversations
+  m_EditorClassIdentifier: 
+  conversations:
+  - actors:
+    - {fileID: 11400000, guid: 5e410843057f4cf449628c0de1a83be4, type: 2}
+    background: {fileID: 11400000, guid: 06eb013a07ad5c44da6f16c8bdda3cfd, type: 2}
+    startingNode: {fileID: 11400000, guid: faf3700d382bd074397c32c56a8e169c, type: 2}
+  - actors:
+    - {fileID: 11400000, guid: cb5cf2ff632ae3c40b28b324fd1bc431, type: 2}
+    background: {fileID: 11400000, guid: 06eb013a07ad5c44da6f16c8bdda3cfd, type: 2}
+    startingNode: {fileID: 11400000, guid: 759e1d9019e337f4a95a8513ccd8a584, type: 2}
+  - actors:
+    - {fileID: 11400000, guid: 1638792fd8e0bb24d9f94a1f28414921, type: 2}
+    background: {fileID: 11400000, guid: 06eb013a07ad5c44da6f16c8bdda3cfd, type: 2}
+    startingNode: {fileID: 11400000, guid: b0934385583ace445ab4055df295a4cd, type: 2}
+  - actors:
+    - {fileID: 11400000, guid: d85bff44566dc134cac1f144917c06ca, type: 2}
+    background: {fileID: 11400000, guid: 06eb013a07ad5c44da6f16c8bdda3cfd, type: 2}
+    startingNode: {fileID: 11400000, guid: 108f9b69449fef9498f5d843d45a94dc, type: 2}
+  - actors:
+    - {fileID: 11400000, guid: 8a5a3f26b9789674c85bddd06fa1bbf3, type: 2}
+    background: {fileID: 11400000, guid: 06eb013a07ad5c44da6f16c8bdda3cfd, type: 2}
+    startingNode: {fileID: 11400000, guid: 66f9e113010da64478a2fbb6043fee8f, type: 2}
+  - actors:
+    - {fileID: 11400000, guid: aa45740f35e0d4748bdf2387b7c9fe73, type: 2}
+    background: {fileID: 11400000, guid: 06eb013a07ad5c44da6f16c8bdda3cfd, type: 2}
+    startingNode: {fileID: 11400000, guid: 8cad00cc5242f4949bb40d68f369b6d6, type: 2}
+  - actors:
+    - {fileID: 11400000, guid: c650cad6bfab1894a8f3e1a9f4954915, type: 2}
+    background: {fileID: 11400000, guid: 06eb013a07ad5c44da6f16c8bdda3cfd, type: 2}
+    startingNode: {fileID: 11400000, guid: 6d2f1d103b2086b43afd2493472c511b, type: 2}
+  - actors:
+    - {fileID: 11400000, guid: aa45740f35e0d4748bdf2387b7c9fe73, type: 2}
+    - {fileID: 11400000, guid: 328f09e3a384b1141b6fc90f0373e6fb, type: 2}
+    background: {fileID: 11400000, guid: 06eb013a07ad5c44da6f16c8bdda3cfd, type: 2}
+    startingNode: {fileID: 11400000, guid: b8703b9fe774e8542aa0388e55e85a28, type: 2}
+  - actors:
+    - {fileID: 11400000, guid: cb5cf2ff632ae3c40b28b324fd1bc431, type: 2}
+    background: {fileID: 11400000, guid: 06eb013a07ad5c44da6f16c8bdda3cfd, type: 2}
+    startingNode: {fileID: 11400000, guid: 154bbf184f16afc4b9795d2f1f7f8560, type: 2}

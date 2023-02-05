@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 701c4b8a2b6dc2e4cb8252b252c9257b, type: 3}
+  m_Name: Mordred
+  m_EditorClassIdentifier: 
+  displayName: Mordred
+  conversations: []
+  relationships:
+  - actor: {fileID: 11400000, guid: 93143de6e7c90944198963802ec46470, type: 2}
+    direct:
+      affection:
+        value: -0.7
+      fear:
+        value: 0.25
+      trust:
+        value: -0.25
+    reputation:
+      affection:
+        value: 0
+      fear:
+        value: 0
+      trust:
+        value: 0
+    mirroring:
+      affection:
+        value: 0
+      fear:
+        value: 0
+      trust:
+        value: 0
+  - actor: {fileID: 11400000, guid: cb5cf2ff632ae3c40b28b324fd1bc431, type: 2}
+    direct:
+      affection:
+        value: -0.3
+      fear:
+        value: 0
+      trust:
+        value: 0
+    reputation:
+      affection:
+        value: 0
+      fear:
+        value: 0
+      trust:
+        value: 0
+    mirroring:
+      affection:
+        value: 0
+      fear:
+        value: 0
+      trust:
+        value: 0
+  - actor: {fileID: 11400000, guid: 328f09e3a384b1141b6fc90f0373e6fb, type: 2}
+    direct:
+      affection:
+        value: -0.3
+      fear:
+        value: -0.3
+      trust:
+        value: 0.2
+    reputation:
+      affection:
+        value: 0
+      fear:
+        value: 0
+      trust:
+        value: 0
+    mirroring:
+      affection:
+        value: 0
+      fear:
+        value: 0
+      trust:
+        value: 0
+  - actor: {fileID: 11400000, guid: 1638792fd8e0bb24d9f94a1f28414921, type: 2}
+    direct:
+      affection:
+        value: -0.3
+      fear:
+        value: -0.3
+      trust:
+        value: 0.2
+    reputation:
+      affection:
+        value: 0
+      fear:
+        value: 0
+      trust:
+        value: 0
+    mirroring:
+      affection:
+        value: 0
+      fear:
+        value: 0
+      trust:
+        value: 0
+  - actor: {fileID: 11400000, guid: aa45740f35e0d4748bdf2387b7c9fe73, type: 2}
+    direct:
+      affection:
+        value: -0.3
+      fear:
+        value: -0.3
+      trust:
+        value: 0.2
+    reputation:
+      affection:
+        value: 0
+      fear:
+        value: 0
+      trust:
+        value: 0
+    mirroring:
+      affection:
+        value: 0
+      fear:
+        value: 0
+      trust:
+        value: 0
+  - actor: {fileID: 11400000, guid: c650cad6bfab1894a8f3e1a9f4954915, type: 2}
+    direct:
+      affection:
+        value: -0.5
+      fear:
+        value: 0.2
+      trust:
+        value: 0
+    reputation:
+      affection:
+        value: 0
+      fear:
+        value: 0
+      trust:
+        value: 0
+    mirroring:
+      affection:
+        value: 0
+      fear:
+        value: 0
+      trust:
+        value: 0
+  - actor: {fileID: 11400000, guid: 8a5a3f26b9789674c85bddd06fa1bbf3, type: 2}
+    direct:
+      affection:
+        value: 0.75
+      fear:
+        value: 0.5
+      trust:
+        value: 0.75
+    reputation:
+      affection:
+        value: 0
+      fear:
+        value: 0
+      trust:
+        value: 0
+    mirroring:
+      affection:
+        value: 0
+      fear:
+        value: 0
+      trust:
+        value: 0
+  mirroring:
+    affection:
+      value: 0
+    fear:
+      value: 0
+    trust:
+      value: 0
+  empathy:
+    affection:
+      value: 0
+    fear:
+      value: 0.8
+    trust:
+      value: 0.2
+  concerns:
+  - occasion: {fileID: 11400000, guid: 1f9449e4588673a4d9383a72512672d0, type: 2}
+    impactToPlayer:
+      affection:
+        value: 0
+      fear:
+        value: -0.2
+      trust:
+        value: 0
+    npcReactions: []
+  - occasion: {fileID: 11400000, guid: 0f20f97197020eb47a16ae1568f3f61d, type: 2}
+    impactToPlayer:
+      affection:
+        value: -0.1
+      fear:
+        value: 0
+      trust:
+        value: 0
+    npcReactions: []
+  validate: 0

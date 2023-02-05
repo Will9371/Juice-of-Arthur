@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 6 - Morgan (4-1) (5-1)
+  m_EditorClassIdentifier: 
+  narrative: I hope she will. I'm sure you and she will spend more time together
+    soon, if time allows.
+  responses:
+  - node: {fileID: 11400000, guid: 0f7b4a464a8ce784f92a1d612d37ce58, type: 2}
+    response: Thank you, Morgan. And tell your son to continue to rule with grace
+      and humility, Mordred indeed has the makings of a headstrong lord.
+  events: []
+  occasions:
+  - {fileID: 11400000, guid: de9e4ffe032a73e4ea4c23672ab7adaa, type: 2}

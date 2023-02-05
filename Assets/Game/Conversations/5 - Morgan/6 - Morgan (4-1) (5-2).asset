@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 6 - Morgan (4-1) (5-2)
+  m_EditorClassIdentifier: 
+  narrative: For now, I will let you go, I know how busy you are today. The Kingdom
+    has sorely needed your guidance these past months.
+  responses:
+  - node: {fileID: 11400000, guid: 693b3c556dc549140aa3ddc458f0585e, type: 2}
+    response: Thank you, sister. Your son seemed to believe otherwise.
+  events: []
+  occasions:
+  - {fileID: 11400000, guid: 1a153551de577274c9017bb485c7c0ec, type: 2}

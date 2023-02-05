@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 14 - Guen Trial
+  m_EditorClassIdentifier: 
+  narrative: "Guenevere: Slander and gossip! I\u2019ve never heard anything so horrible!"
+  responses:
+  - node: {fileID: 11400000, guid: 625d76e20c8edee42a7f2f44eb38c309, type: 2}
+    response: All right Mildred. You appear to have acted with sound intent.  You
+      may go, but I ask that you cease this activity.
+  - node: {fileID: 11400000, guid: 42b94b0a046f99d4f8914bda8c6d0ff1, type: 2}
+    response: Thou hast betrayed the trust of the crown! I hereby banish you from
+      the Kingdom. If you return, you will be chopped up and thrown in the pot! 
+      Have I made myself clear?
+  events: []
+  occasions: []

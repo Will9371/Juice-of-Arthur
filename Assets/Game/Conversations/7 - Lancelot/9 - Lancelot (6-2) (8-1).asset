@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 9 - Lancelot (6-2) (8-1)
+  m_EditorClassIdentifier: 
+  narrative: "M\u2019lord, I can appreciate that you would have the best interests
+    of the people in mind. But I can\u2019t help but object to your exclusion of
+    the opinions and desires of your people. But if that is your wish, I will follow
+    with honor and dignity."
+  responses:
+  - node: {fileID: 11400000, guid: fa1811b0fc67f804dbe0a91c5989ce85, type: 2}
+    response: (end conversation)
+  events: []
+  occasions:
+  - {fileID: 11400000, guid: 321d518eb5bdf184491900a9bb5e0b8f, type: 2}

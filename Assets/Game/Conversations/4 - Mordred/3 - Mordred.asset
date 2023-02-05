@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 3 - Mordred
+  m_EditorClassIdentifier: 
+  narrative: I heard you chastising Gawain for going off on his adventure. You're
+    one to talk! How's that holy grain working out for you, huh? If you're going
+    to be king, be our king!
+  responses:
+  - node: {fileID: 11400000, guid: 5495a3326173a494a98020a2b9c9b7cc, type: 2}
+    response: I understand your concern...
+  events: []
+  occasions: []

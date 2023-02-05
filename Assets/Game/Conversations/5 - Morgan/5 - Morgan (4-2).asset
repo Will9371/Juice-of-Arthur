@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 5 - Morgan (4-2)
+  m_EditorClassIdentifier: 
+  narrative: I look forward to hearing them. My son will also look forward to hearing
+    them, as he has much more to learn from you about being a ruler. For now, I will
+    let you get back to your work. I know how busy you must be.
+  responses:
+  - node: {fileID: 11400000, guid: fa1811b0fc67f804dbe0a91c5989ce85, type: 2}
+    response: Thank you, sister.
+  events: []
+  occasions:
+  - {fileID: 11400000, guid: d7fffe5523b7f934da9f42bdbbc893f3, type: 2}

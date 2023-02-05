@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 6 - Lancelot
+  m_EditorClassIdentifier: 
+  narrative: 'Your majesty, if I may ask. I have not yet come to be acquainted with
+    you, and I would like to know more about what kind of ruler you are. '
+  responses:
+  - node: {fileID: 11400000, guid: 453592931f32d8042bb3f1ad896ea11e, type: 2}
+    response: 'I trust in the values of my chosen lords and prefer to let them rule
+      with minimal interference. '
+  - node: {fileID: 11400000, guid: 96d6c97371ca2d34baed1960e382a7f1, type: 2}
+    response: I am a just and fair ruler who values the well-being of my people above
+      all else. I make decisions based on what is best for Camelot and its citizens.
+  events: []
+  occasions: []

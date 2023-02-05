@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 6 - Merlin (how to gain favor)
+  m_EditorClassIdentifier: 
+  narrative: Oh, the usual.  Treating them well, telling them what they want to hear,
+    and most importantly by making decisions in their best interest.
+  responses:
+  - node: {fileID: 11400000, guid: 6c3c645ee13760445b265cb3629ac70c, type: 2}
+    response: Sounds simple enough.
+  events: []
+  occasions: []

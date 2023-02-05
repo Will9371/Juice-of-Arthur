@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 10 - Bors (8-2)
+  m_EditorClassIdentifier: 
+  narrative: 'Bors: You certainly did not!  If you would be so kind as to assist
+    in the trade route, I suppose we could find a compromise. '
+  responses:
+  - node: {fileID: 11400000, guid: 99cc31dc36fbe474e86ef58b1e2044c7, type: 2}
+    response: Bors, I ask that you accept his humility in kind. I have given him
+      an order to reallocate his forces to your aid, but he is your fellow lord and
+      you must work together.
+  events: []
+  occasions: []

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 6 - Kay and Bors
+  m_EditorClassIdentifier: 
+  narrative: 'Bors: And, as a result, the situation has only escalated. The criminals
+    have become bolder and their actions more violent. The people of the land are
+    living in fear and it is our duty to restore order and security.'
+  responses:
+  - node: {fileID: 11400000, guid: a8adcf8fafc30e243980c87b71ff1c60, type: 2}
+    response: Why do you need to control the land in order to fight the ongoing threat?
+  events: []
+  occasions: []

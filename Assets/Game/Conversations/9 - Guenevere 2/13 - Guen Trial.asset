@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 13 - Guen Trial
+  m_EditorClassIdentifier: 
+  narrative: "Gawain: It\u2019s true, my lord. I ordered the servant to keep watch
+    over Guenevere and Lancelot. I have seen how they behave towards each other,
+    and I find their conduct suspicious. This is not a secret I\u2019ve been keeping
+    from you, but I wanted to learn more before coming to you with this information."
+  responses:
+  - node: {fileID: 11400000, guid: efc7a1db2b1fa3d46981237cb56b8f14, type: 2}
+    response: (continue)
+  events: []
+  occasions: []

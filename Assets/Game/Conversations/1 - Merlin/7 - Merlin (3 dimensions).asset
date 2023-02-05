@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 7 - Merlin (3 dimensions)
+  m_EditorClassIdentifier: 
+  narrative: Ah, but it is not just a matter of liking you or not.  There are, in
+    fact, three dimensions to each relationship.  Some matter more than others, and
+    different people have different priorities.  It will not serve, for example,
+    to win the friendship of one who responds only to force--nor to intimidate one
+    who acts out of love.
+  responses:
+  - node: {fileID: 11400000, guid: 0aef8e8440180bf42a8c2c9aa97ba649, type: 2}
+    response: I see...
+  events: []
+  occasions: []

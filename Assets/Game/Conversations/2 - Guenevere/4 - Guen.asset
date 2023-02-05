@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 4 - Guen
+  m_EditorClassIdentifier: 
+  narrative: Oh, alright. Thank you again for hiring Lancelot as my personal bodyguard,
+    he's kept me feeling safe ever since you left.
+  responses:
+  - node: {fileID: 11400000, guid: e6858a401146483408dad9b5d9b318f4, type: 2}
+    response: Good. Ok, I need to talk to some other people, if you'll please excuse
+      me.
+  - node: {fileID: 11400000, guid: a604030910a00a74a93707bd9534ebf6, type: 2}
+    response: Oh yeah? You guys have been getting along?
+  events: []
+  occasions:
+  - {fileID: 11400000, guid: ccbba7fd45658e94daa1386842f1b4bf, type: 2}

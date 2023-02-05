@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 5 - Mordred 2
+  m_EditorClassIdentifier: 
+  narrative: 'Leave things to us. If I were you, I would just sit back and take a
+    hands-off approach. Try not to meddle in our affairs because you might just screw
+    things up without knowing. The kingdom has been getting along fine in your absence. '
+  responses:
+  - node: {fileID: 11400000, guid: 225f4bdc2d22bbe41961574fcb411996, type: 2}
+    response: You're right. Good advice!  I appreciate your perspective.
+  - node: {fileID: 11400000, guid: fa1811b0fc67f804dbe0a91c5989ce85, type: 2}
+    response: 'Your advice is noted.  You can go now. '
+  events: []
+  occasions: []

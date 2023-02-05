@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 8 - Kay and Bors
+  m_EditorClassIdentifier: 
+  narrative: 'Bors: My lord, while I understand Kay''s concerns, the land in question
+    is my birthright and has been in my family for generations. I cannot simply hand
+    over control to him. It would also be a long and costly process.'
+  responses:
+  - node: {fileID: 11400000, guid: 4567de4993b0ac941b56bd2f21155a71, type: 2}
+    response: 'Sir Bors, though your birthright to the land is not to be ignored,
+      perhaps a temporary transfer of power is the best solution. You need to help
+      Kay with this problem. '
+  - node: {fileID: 11400000, guid: 0ef1259c2eac716419c8a824f3452f86, type: 2}
+    response: It is not for me to interfere in the affairs of my knights and lords.
+      I trust that both of you will come to a resolution that serves the greater
+      good and maintains the peace of our kingdom.
+  events: []
+  occasions: []

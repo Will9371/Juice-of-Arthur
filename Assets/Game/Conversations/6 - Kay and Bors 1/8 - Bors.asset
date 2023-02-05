@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 8 - Bors
+  m_EditorClassIdentifier: 
+  narrative: 'Bors: That may be true, but there has been a serious rise in crime
+    along the trade route as well! Maybe he has forgotten that his resources were
+    doing more than just keeping the roads in shape.'
+  responses:
+  - node: {fileID: 11400000, guid: 13911a2633fa6464a987ae6b1f2dc021, type: 2}
+    response: "Bors, you will have to be patient and understanding of Kay\u2019s
+      current dilemma. If his home is under siege then he will need to deal with
+      that issue."
+  - node: {fileID: 11400000, guid: 1b18040a6124a7044b09800be773167b, type: 2}
+    response: Kay, you will need to balance your resources effectively to be able
+      to allow your situation to be managed while upholding your sworn duties to
+      your fellow lords.
+  - node: {fileID: 11400000, guid: 8aecb216eaa2c764f8ae32969715f055, type: 2}
+    response: "This is something that both of you will have to work out. I\u2019m
+      sure you two can continue to talk this through and find a compromise."
+  events: []
+  occasions: []

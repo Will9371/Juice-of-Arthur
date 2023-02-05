@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 10 - Guen Trial
+  m_EditorClassIdentifier: 
+  narrative: "Mildred: Forgive me, my Queen. I don\u2019t believe it to be true,
+    but Gawain gave me strict orders to watch you and Lancelot. I objected to his
+    order, but he was rather intimidating towards me. He threatened to have me banished
+    from the kingdom if I didn\u2019t help him."
+  responses:
+  - node: {fileID: 11400000, guid: b78e039487e051440bb06f164af20431, type: 2}
+    response: (continue)
+  events: []
+  occasions: []

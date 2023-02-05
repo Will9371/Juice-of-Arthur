@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 701c4b8a2b6dc2e4cb8252b252c9257b, type: 3}
+  m_Name: Arthur
+  m_EditorClassIdentifier: 
+  displayName: Arthur
+  conversations: []
+  relationships: []
+  mirroring:
+    affection:
+      value: 0
+    fear:
+      value: 0
+    trust:
+      value: 0
+  empathy:
+    affection:
+      value: 0
+    fear:
+      value: 0
+    trust:
+      value: 0
+  concerns: []
+  validate: 0

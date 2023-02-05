@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 5 - Kay
+  m_EditorClassIdentifier: 
+  narrative: 'Yes, my liege. I have been redirecting many of my repairmen towards
+    another important matter. We have seen a rise in theft and harassment of my subjects
+    these past months, and therefore have not been able to uphold my duties with
+    route repairs as a result. '
+  responses:
+  - node: {fileID: 11400000, guid: 8955865f49451364da4bd1dc91025ce8, type: 2}
+    response: Hold on, it looks like Bors is here.
+  events: []
+  occasions: []

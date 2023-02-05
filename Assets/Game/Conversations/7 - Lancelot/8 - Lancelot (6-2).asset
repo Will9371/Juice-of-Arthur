@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 8 - Lancelot (6-2)
+  m_EditorClassIdentifier: 
+  narrative: I see. And what if those decisions were not in line with the desires
+    of the people?
+  responses:
+  - node: {fileID: 11400000, guid: 774b4f0d3f2279b489aa41a18ed84654, type: 2}
+    response: I always consider the desires of the people, but my role as the ruler
+      is to make difficult decisions in their best interests, even if they are not
+      popular.
+  - node: {fileID: 11400000, guid: ea987d6845e83bf4cae9a9ac6dc96bcd, type: 2}
+    response: I strive to serve both the well-being of the people and the stability
+      of the kingdom. The lords serve as advisors and I take their counsel into consideration
+      in my decisions.
+  events: []
+  occasions: []

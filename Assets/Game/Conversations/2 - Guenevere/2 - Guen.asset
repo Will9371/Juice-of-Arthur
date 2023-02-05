@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 2 - Guen
+  m_EditorClassIdentifier: 
+  narrative: I am well, my dear. Did you find that... what was it? A holy grain?
+  responses:
+  - node: {fileID: 11400000, guid: 0dc923ae23ea64a48be4ef4ff7ac6f7f, type: 2}
+    response: Fine, thank you dear. And no, I couldn't find it.
+  events: []
+  occasions: []

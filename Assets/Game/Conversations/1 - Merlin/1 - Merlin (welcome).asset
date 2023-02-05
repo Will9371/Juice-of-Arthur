@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 1 - Merlin (welcome)
+  m_EditorClassIdentifier: 
+  narrative: Welcome back, m'lord.  Much has changed since I left to find the Holy
+    Grain...
+  responses:
+  - node: {fileID: 11400000, guid: 72130bcd7351d6445920e23efc09b151, type: 2}
+    response: Hello, old friend.  What news have ye?
+  - node: {fileID: 11400000, guid: ec86a1fc4b11e0748918001ad5963741, type: 2}
+    response: This conversation feels familiar, like we have had it before.  Let
+      us skip these introductions and move on to business.
+  events: []
+  occasions: []

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 17 - Guen Trial (14-2)
+  m_EditorClassIdentifier: 
+  narrative: 'Guenevere: Is that all? Gawain deserves a more severe punishment. He
+    has betrayed my trust and acted dishonorably. '
+  responses:
+  - node: {fileID: 11400000, guid: 3de4895b30025a0439d2a3b58a491abd, type: 2}
+    response: (continue)
+  events:
+  - {fileID: 11400000, guid: 0eb762b48e35e664c9a1986c42b77c30, type: 2}
+  occasions: []

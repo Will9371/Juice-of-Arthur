@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 4 - Morgan
+  m_EditorClassIdentifier: 
+  narrative: ' But I''m sure you have many great tales and lessons to impart from
+    your travels. Your beautiful wife has missed you, I''m sure. She has looked much
+    younger and fresher since she started spending time with Lancelot.'
+  responses:
+  - node: {fileID: 11400000, guid: c637085937d116144889f96dc5940edd, type: 2}
+    response: 'Thank you, you are too kind. Guinevere radiates beauty and grace wherever
+      she goes, at all hours of every day. '
+  - node: {fileID: 11400000, guid: b5185bc39b9d3fa46abf970614648557, type: 2}
+    response: I appreciate your interest. I will make sure to tell you more of my
+      adventures.
+  events: []
+  occasions: []

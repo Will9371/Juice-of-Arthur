@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 6 - Guen Trial
+  m_EditorClassIdentifier: 
+  narrative: (Enter Lancelot, Gawain, and the servant Mildred)
+  responses:
+  - node: {fileID: 11400000, guid: 1bddb4720c0dd2b4fab1a83f2f83bd49, type: 2}
+    response: Alright, Mildred. Tell us why you were spying on the Queen and Lancelot.
+  events:
+  - {fileID: 11400000, guid: bf19241e42c4b5640ba473eca5c743ce, type: 2}
+  occasions: []

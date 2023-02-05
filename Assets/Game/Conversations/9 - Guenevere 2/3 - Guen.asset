@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 3 - Guen
+  m_EditorClassIdentifier: 
+  narrative: I have no idea, I was just having a lesson with Lancelot and noticed
+    a servant watching us. When I started to approach her she ran off.
+  responses:
+  - node: {fileID: 11400000, guid: b0c8a4796f51e734cbd940d5355b2772, type: 2}
+    response: "I don\u2019t know enough about what happened. Perhaps she just lingered
+      a little too long on a cursory glance in your direction, it is an easy enough
+      mistake to make."
+  - node: {fileID: 11400000, guid: cda1fb4850bce53459e1b705479b927e, type: 2}
+    response: "Very well. I will have her banished from the kingdom without delay.
+      I don\u2019t have time to investigate the matter further."
+  - node: {fileID: 11400000, guid: d36163b96dc70f342a2d6d1bf13316c2, type: 2}
+    response: In that case, I will see to it that she stand trial. I must hear her
+      side of the story, and from Lancelot as well.
+  events: []
+  occasions: []
