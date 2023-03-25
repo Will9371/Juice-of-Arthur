@@ -50,3 +50,9 @@ MonoBehaviour:
     - {fileID: 11400000, guid: cb5cf2ff632ae3c40b28b324fd1bc431, type: 2}
     background: {fileID: 11400000, guid: 06eb013a07ad5c44da6f16c8bdda3cfd, type: 2}
     startingNode: {fileID: 11400000, guid: 154bbf184f16afc4b9795d2f1f7f8560, type: 2}
+  - actors:
+    - {fileID: 11400000, guid: 8a5a3f26b9789674c85bddd06fa1bbf3, type: 2}
+    - {fileID: 11400000, guid: 93143de6e7c90944198963802ec46470, type: 2}
+    - {fileID: 11400000, guid: cb5cf2ff632ae3c40b28b324fd1bc431, type: 2}
+    background: {fileID: 11400000, guid: 06eb013a07ad5c44da6f16c8bdda3cfd, type: 2}
+    startingNode: {fileID: 11400000, guid: 375aeec35e141ad449208dd3bb1e6c38, type: 2}

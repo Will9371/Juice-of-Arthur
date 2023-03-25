@@ -76,7 +76,7 @@ namespace ZMD.Dialog
             {
                 if (own.actor == null) continue;
                 var others = fromScene ?
-                     narrative.GetActor(own.actor).relationships :
+                     narrative.GetActorLogic(own.actor).relationships :
                      own.actor.relationships;
 
                 foreach (var other in others)
@@ -127,6 +127,14 @@ namespace ZMD.Dialog
             var trust = target.trust - source.trust;
             return new Vector3(affection, fear, trust);
         }
+        
+        /// Returns true if all of own values (affection, fear, and trust) are above the input parameter values
+        public bool IsAbove(RelationshipParameters values) =>
+            affection >= values.affection.value && 
+            fear >= values.fear.value  &&
+            trust >= values.trust.value;
+            
+        public string Print(ActorInfo subject) => $"{subject.displayName}'s relationship to {actor.displayName} is: {allValues.ToString()}";
     }
     
     public class RelationalChange
@@ -153,7 +161,7 @@ namespace ZMD.Dialog
         [Tooltip("Positive = trusting, negative = distrustful, zero = unfamiliar")]
         public RelationshipParameter trust;
         
-        public Vector3 allValues => new Vector3(affection.value, fear.value, trust.value);
+        public Vector3 allValues => new (affection.value, fear.value, trust.value);
         
         public void Reset()
         {
@@ -177,7 +185,7 @@ namespace ZMD.Dialog
             var trustChange = trust.Add(other.trust);
             return new Vector3(affectionChange, fearChange, trustChange);
         }
-        
+
         /// Deep Copy
         public RelationshipParameters(RelationshipParameters original)
         {
@@ -194,7 +202,7 @@ namespace ZMD.Dialog
     [Serializable]
     public class RelationshipParameter
     {
-        [Range(-1, 1)] public float value;
+        [Range(-2, 2)] public float value;
 
         public void Reset() => value = 0;
         

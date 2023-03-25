@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 7 - Ending (Morgan)
+  m_EditorClassIdentifier: 
+  narrative: Then she paused to consider her actions...
+  responses:
+  - node: {fileID: 11400000, guid: d69b426f56776764f88839370e5573f3, type: 2}
+    response: (continue)
+    logicalRequirement:
+      requirements: []
+      invert: 0
+  castChanges: []
+  occasions:
+  - {fileID: 11400000, guid: 0d163203db4147f488091d3e9034a096, type: 2}
+  events: []

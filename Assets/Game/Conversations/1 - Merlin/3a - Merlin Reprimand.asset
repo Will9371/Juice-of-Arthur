@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
   m_Name: 3a - Merlin Reprimand
   m_EditorClassIdentifier: 
-  narrative: Hey!  Listen!.
+  narrative: Hey!  Listen!
   responses:
   - node: {fileID: 11400000, guid: 9e399e45e28debf4a88ee8fbc5ef2438, type: 2}
     response: OK, OK...

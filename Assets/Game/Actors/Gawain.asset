@@ -209,7 +209,7 @@ MonoBehaviour:
       fear:
         value: 0.15
       trust:
-        value: 0.15
+        value: 0
     npcReactions: []
   - occasion: {fileID: 11400000, guid: 6ee4ca4c9760630438b0a6d43a2e1ebd, type: 2}
     impactToPlayer:
@@ -218,7 +218,7 @@ MonoBehaviour:
       fear:
         value: -0.15
       trust:
-        value: -0.15
+        value: 0
     npcReactions: []
   - occasion: {fileID: 11400000, guid: 96406465495409f4c96c79d9673dc994, type: 2}
     impactToPlayer:
@@ -251,7 +251,7 @@ MonoBehaviour:
         affection:
           value: -0.25
         fear:
-          value: -0.5
+          value: 0
         trust:
           value: -0.25
   validate: 0

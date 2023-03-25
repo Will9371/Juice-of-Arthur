@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
   m_Name: 9 - Kay and Bors (8-1)
   m_EditorClassIdentifier: 
-  narrative: My knights are already stretched thin and now you ask me to help Kay
-    rule his own lands?
+  narrative: 'Bors: My knights are already stretched thin and now you ask me to help
+    Kay rule his own lands?'
   responses:
   - node: {fileID: 11400000, guid: 83ede30716663f84ea6acc97eb98f1ae, type: 2}
     response: We are all part of the same kingdom and need to work together.

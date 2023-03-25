@@ -16,6 +16,8 @@ MonoBehaviour:
   responses:
   - node: {fileID: 11400000, guid: e1cbdcca13279214a8000897e5b94442, type: 2}
     response: (give Gawain permission to leave)
-  events:
-  - {fileID: 11400000, guid: e1971a85237199747a727c5b29aeeb06, type: 2}
+  events: []
   occasions: []
+  castChanges:
+  - actor: {fileID: 11400000, guid: 48369a350018d9948bbebf2fb537e276, type: 2}
+    active: 0

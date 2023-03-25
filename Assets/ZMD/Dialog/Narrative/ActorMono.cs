@@ -116,7 +116,7 @@ namespace ZMD.Dialog
             onChangeRelationshipDirect?.Invoke(self, actor, valueChange);
         }
         
-        Relationship GetRelationship(ActorInfo id)
+        public Relationship GetRelationship(ActorInfo id)
         {
             foreach (var relationship in relationships)
                 if (relationship.actor == id)

@@ -16,6 +16,12 @@ MonoBehaviour:
   responses:
   - node: {fileID: 11400000, guid: 1bddb4720c0dd2b4fab1a83f2f83bd49, type: 2}
     response: Alright, Mildred. Tell us why you were spying on the Queen and Lancelot.
-  events:
-  - {fileID: 11400000, guid: bf19241e42c4b5640ba473eca5c743ce, type: 2}
+  events: []
   occasions: []
+  castChanges:
+  - actor: {fileID: 11400000, guid: 48369a350018d9948bbebf2fb537e276, type: 2}
+    active: 1
+  - actor: {fileID: 11400000, guid: c650cad6bfab1894a8f3e1a9f4954915, type: 2}
+    active: 1
+  - actor: {fileID: 11400000, guid: 1638792fd8e0bb24d9f94a1f28414921, type: 2}
+    active: 1

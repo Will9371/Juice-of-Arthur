@@ -187,19 +187,19 @@ MonoBehaviour:
   - occasion: {fileID: 11400000, guid: 321d518eb5bdf184491900a9bb5e0b8f, type: 2}
     impactToPlayer:
       affection:
-        value: -0.2
+        value: 0
       fear:
         value: -0.2
       trust:
-        value: -0.2
+        value: 0
     npcReactions: []
   - occasion: {fileID: 11400000, guid: 6ee4ca4c9760630438b0a6d43a2e1ebd, type: 2}
     impactToPlayer:
       affection:
-        value: 0.2
+        value: 0
       fear:
         value: 0.2
       trust:
-        value: 0.2
+        value: 0
     npcReactions: []
   validate: 0

@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 
+// * Refactor: break into single responsibilities
 namespace ZMD.Dialog
 {
     public class NarrativeHub : Singleton<NarrativeHub>
@@ -9,17 +10,25 @@ namespace ZMD.Dialog
         public ActorInfo player;
         public DialogControllerMono dialog;
         
+        public OccasionRecorder decisions;
+        public void MakeDecision(OccasionInfo occasion)
+        {
+            decisions.Add(occasion);
+            onOccasion?.Invoke();
+        }
+        
         #region Logic
         
         [Header("Logic Bindings")]
-        public ActorLogic[] actors;
+        public Actor[] actors;
         
         /// Associates actor's static (starting) data and dynamic instance.
         [Serializable]
-        public struct ActorLogic
+        public struct Actor
         {
             public ActorInfo id;
             public ActorMono person;
+            public ActorEnterExit image;
         }
 
         public Action onOccasion;
@@ -33,55 +42,41 @@ namespace ZMD.Dialog
                 actor.person.RecalculateReputation(true);
         }
         
-        public ActorMono GetActor(ActorInfo id)
+        public Actor GetActor(ActorInfo id)
         {
             foreach (var actor in actors)
                 if (actor.id == id)
-                    return actor.person;
+                    return actor;
                     
             Debug.LogError($"Invalid actor {id}");
-            return null;
+            return actors[0];
+        }
+        
+        public ActorEnterExit GetActorImage(ActorInfo id) => GetActor(id).image;
+        public ActorMono GetActorLogic(ActorInfo id) => GetActor(id).person;
+        
+        public void SetConversation(Conversation conversation)
+        {
+            SetActorImagesActive(conversation.actors);
+            SetSceneActive(conversation.background);
+            dialog.Begin(conversation.startingNode);
         }
 
         #endregion
         
         #region Display
         
-        [Header("Image bindings")]
-        public ActorImage[] characters;
-        
-        [Serializable]
-        public struct ActorImage
-        {
-            public ActorInfo id;
-            public GameObject obj;
-        }
-        
-        public void SetActorImagesActive(ActorInfo[] actorsPresent)
-        {
-            SetAllActorImagesActive(false);
-            
-            foreach (var actor in actorsPresent)
-                SetActorImageActive(actor, true);
-        }
-        
-        public void SetActorImageActive(ActorInfo id, bool value) => GetImage(id)?.SetActive(value);
+        public void SetActorImageActive(ActorInfo id, bool value) => GetActorImage(id).SetActive(value);
 
-        public void SetAllActorImagesActive(bool value)
+        void SetActorImagesActive(ActorInfo[] actorsPresent)
         {
-            foreach (var image in characters)
-                image.obj.SetActive(value);
+            foreach (var actor in actors)
+            {
+                var present = Array.Exists(actorsPresent, element => element == actor.id);
+                SetActorImageActive(actor.id, present);
+            }
         }
-        
-        GameObject GetImage(ActorInfo id)
-        {
-            foreach (var image in characters)
-                if (image.id == id)
-                    return image.obj;
-                    
-            return null;
-        }
-        
+
         public Scene[] scenes;
         
         [Serializable]
@@ -91,7 +86,7 @@ namespace ZMD.Dialog
             public GameObject obj;
         }
         
-        public void SetSceneActive(SO id)
+        void SetSceneActive(SO id)
         {
             foreach(var scene in scenes)
                 scene.obj.SetActive(scene.id == id);

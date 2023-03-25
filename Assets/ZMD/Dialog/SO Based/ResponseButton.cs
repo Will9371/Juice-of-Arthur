@@ -10,6 +10,12 @@ public class ResponseButton : MonoBehaviour
     public void SetText(string value) => text.text = value;
     public void SetActive(bool value) => gameObject.SetActive(value);
     
+    public void Activate(string value)
+    {
+        SetText(value);
+        SetActive(true);
+    }
+    
     //[HideInInspector] 
     public int responseId;
     void Start() => button.onClick.AddListener(OnClick);

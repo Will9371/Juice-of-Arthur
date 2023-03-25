@@ -17,8 +17,7 @@ MonoBehaviour:
     of the ramifications of my resource management."
   responses:
   - node: {fileID: 11400000, guid: 405c28df0e6c6354fbfe6e509911bfda, type: 2}
-    response: "Thank you for admitting Bors\u2019 current struggles. Because the
-      route belongs to you both, I hope this would give you an added incentive to
-      pursue a solution to his problem. Now go, both of you, and deal with this problem."
+    response: I hope this would give you an added incentive to pursue a solution.
+      Now go, both of you, and deal with this problem.
   events: []
   occasions: []

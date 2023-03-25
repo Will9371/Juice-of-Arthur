@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 2 - Ending - relation
+  m_EditorClassIdentifier: 
+  narrative: Arthur and Guenevere were fast asleep.  Morgan drew a knife, approaching
+    cautiously...
+  responses:
+  - node: {fileID: 11400000, guid: aa9d202f5cd3ce843bea3aac3a21bf8d, type: 2}
+    response: (continue)
+    logicalRequirement:
+      requirements: []
+      invert: 0
+    relationalRequirement:
+      requirements:
+      - subjectId: {fileID: 11400000, guid: c650cad6bfab1894a8f3e1a9f4954915, type: 2}
+        objectId: {fileID: 0}
+        threshold:
+          affection:
+            value: 0.1
+          fear:
+            value: 0.35
+          trust:
+            value: 0.25
+        invert: 0
+      invert: 0
+    fallbackNode: {fileID: 11400000, guid: ae6e2f1a6c0fade43994a4e8e83175db, type: 2}
+    fallbackResponse: (continue)
+  castChanges: []
+  occasions: []
+  events: []

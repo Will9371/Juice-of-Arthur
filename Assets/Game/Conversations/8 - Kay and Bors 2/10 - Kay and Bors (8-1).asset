@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
   m_Name: 10 - Kay and Bors (8-1)
   m_EditorClassIdentifier: 
-  narrative: Thank you, my liege.
+  narrative: 'Kay: Thank you, my liege.'
   responses:
   - node: {fileID: 11400000, guid: 38d2c1a7ee0f3924b9b8a085e4be5fd0, type: 2}
     response: (continue)

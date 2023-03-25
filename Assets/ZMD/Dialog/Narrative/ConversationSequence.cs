@@ -7,11 +7,10 @@ namespace ZMD.Dialog
     public class ConversationSequence : MonoBehaviour
     {
         NarrativeHub narrative => NarrativeHub.instance;
-        DialogController dialog => narrative.dialog.process;
 
         void Awake() { narrative.onEndConversation += End; }
         void OnDestroy() { if (NarrativeHub.exists) narrative.onEndConversation -= End; }
-        void Start() => Begin();
+        void Start() => Invoke(nameof(Begin), 0f);
         
         [SerializeField] ConversationSequenceInfo info;
         Conversation[] conversations => info.conversations;
@@ -27,11 +26,7 @@ namespace ZMD.Dialog
                 return;
             }
         
-            var currentConversation = conversations[index];
-            narrative.SetActorImagesActive(currentConversation.actors);
-            //narrative.SetSceneActive(currentConversation.background);
-            
-            dialog.Begin(currentConversation.startingNode);
+            narrative.SetConversation(conversations[index]);
         }
         
         void End()

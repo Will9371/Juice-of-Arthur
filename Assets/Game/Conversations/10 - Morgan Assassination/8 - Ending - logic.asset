@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 8 - Ending - logic
+  m_EditorClassIdentifier: 
+  narrative: ...dramatic pause...
+  responses:
+  - node: {fileID: 11400000, guid: f53dc42f4b254334892dbae6d57dc889, type: 2}
+    response: (continue)
+    logicalRequirement:
+      requirements:
+      - items:
+        - value: {fileID: 11400000, guid: 6b15b14078b83e54398b119202ce48fd, type: 2}
+          invert: 0
+        - value: {fileID: 11400000, guid: f54ccc7191a20ba40b7c84f814849dc2, type: 2}
+          invert: 0
+        - value: {fileID: 11400000, guid: 0d163203db4147f488091d3e9034a096, type: 2}
+          invert: 0
+        invert: 0
+      invert: 0
+    relationalRequirement:
+      requirements: []
+      invert: 0
+    fallbackNode: {fileID: 11400000, guid: 467bad96c5ec989459f6cbd3b3305ddd, type: 2}
+    fallbackResponse: (continue)
+  castChanges: []
+  occasions: []
+  events: []

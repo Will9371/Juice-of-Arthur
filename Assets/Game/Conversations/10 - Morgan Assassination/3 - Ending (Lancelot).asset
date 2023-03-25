@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 3 - Ending (Lancelot)
+  m_EditorClassIdentifier: 
+  narrative: Lancelot passed by, patrolling the hall a second time out of respect
+    for his King and Queen, intent on proving his loyalty.  Morgan ducked behind
+    a pillar, narrowly avoiding notice.  She held her breath, holding her breath
+    until Lancelot passed.
+  responses:
+  - node: {fileID: 11400000, guid: ae6e2f1a6c0fade43994a4e8e83175db, type: 2}
+    response: (continue)
+    logicalRequirement:
+      requirements: []
+      invert: 0
+    relationalRequirement:
+      requirements: []
+      invert: 0
+  castChanges:
+  - actor: {fileID: 11400000, guid: c650cad6bfab1894a8f3e1a9f4954915, type: 2}
+    active: 1
+  - actor: {fileID: 11400000, guid: 8a5a3f26b9789674c85bddd06fa1bbf3, type: 2}
+    active: 0
+  occasions:
+  - {fileID: 11400000, guid: 6b15b14078b83e54398b119202ce48fd, type: 2}
+  events: []

@@ -19,6 +19,8 @@ MonoBehaviour:
     response: No, Guenevere.  She is not to blame for this. Gawain, I expect better
       from you.  Please stop conspiring to harass the Queen, or I will be forced
       to take more serious action.
-  events:
-  - {fileID: 11400000, guid: e1971a85237199747a727c5b29aeeb06, type: 2}
+  events: []
   occasions: []
+  castChanges:
+  - actor: {fileID: 11400000, guid: 48369a350018d9948bbebf2fb537e276, type: 2}
+    active: 0

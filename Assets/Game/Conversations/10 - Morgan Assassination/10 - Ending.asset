@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 10 - Ending
+  m_EditorClassIdentifier: 
+  narrative: My lord, Morgan and her son Mordred have fled the kingdom.  Their attempt
+    on your life has failed, but they will surely continue to plot against you.
+  responses:
+  - node: {fileID: 11400000, guid: e60164550f4d60143b6941b140033e00, type: 2}
+    response: We must track them down and punish their treason!
+    logicalRequirement:
+      requirements: []
+      invert: 0
+  castChanges:
+  - actor: {fileID: 11400000, guid: 8a5a3f26b9789674c85bddd06fa1bbf3, type: 2}
+    active: 0
+  - actor: {fileID: 11400000, guid: 5e410843057f4cf449628c0de1a83be4, type: 2}
+    active: 1
+  - actor: {fileID: 11400000, guid: 93143de6e7c90944198963802ec46470, type: 2}
+    active: 0
+  - actor: {fileID: 11400000, guid: cb5cf2ff632ae3c40b28b324fd1bc431, type: 2}
+    active: 0
+  occasions: []
+  events: []

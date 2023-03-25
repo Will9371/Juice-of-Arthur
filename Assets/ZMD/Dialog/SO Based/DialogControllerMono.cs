@@ -39,16 +39,7 @@ namespace ZMD.Dialog
         }
         public Action<DialogNode> onSetNode;
         
-        bool _inProgress;
-        bool inProgress
-        {
-            get => _inProgress;
-            set
-            {
-                _inProgress = value;
-                //display.SetActive(value);
-            }
-        }
+        bool inProgress;
 
         public void Begin(DialogNode startingNode)
         {
@@ -76,7 +67,10 @@ namespace ZMD.Dialog
             if (index >= node.responses.Length)
                 return;
         
-            node = node.responses[index].node;
+            node = node.GetNode(index);
+            
+            foreach (var character in node.castChanges)
+                narrative.SetActorImageActive(character.actor, character.active);
             
             // UnityEvent based
             foreach (var item in node.events)
@@ -89,7 +83,7 @@ namespace ZMD.Dialog
             foreach (var occasion in node.occasions)
             {
                 occasion.Trigger();
-                narrative.onOccasion?.Invoke();
+                narrative.MakeDecision(occasion);
             }
             
             if (node.occasions.Length > 0 || node.events.Length > 0)

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df6a31ec318a254eae9af3311b7aaaf, type: 3}
+  m_Name: 5 - Ending (Kay and Bors)
+  m_EditorClassIdentifier: 
+  narrative: Kay and Bors stumbled by, drunkenly boasting about their plans to rid
+    the land of bandits, trusting in their King's support.  Morgan ducked behind
+    a pillar, her heart pounding.
+  responses:
+  - node: {fileID: 11400000, guid: b6384ddba35ed1c43934794f5ad0922e, type: 2}
+    response: (continue)
+    logicalRequirement:
+      requirements: []
+      invert: 0
+    relationalRequirement:
+      requirements: []
+      invert: 0
+  castChanges:
+  - actor: {fileID: 11400000, guid: aa45740f35e0d4748bdf2387b7c9fe73, type: 2}
+    active: 1
+  - actor: {fileID: 11400000, guid: 328f09e3a384b1141b6fc90f0373e6fb, type: 2}
+    active: 1
+  - actor: {fileID: 11400000, guid: 8a5a3f26b9789674c85bddd06fa1bbf3, type: 2}
+    active: 0
+  occasions:
+  - {fileID: 11400000, guid: f54ccc7191a20ba40b7c84f814849dc2, type: 2}
+  events: []

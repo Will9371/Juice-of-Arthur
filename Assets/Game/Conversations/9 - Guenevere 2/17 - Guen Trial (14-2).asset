@@ -17,6 +17,8 @@ MonoBehaviour:
   responses:
   - node: {fileID: 11400000, guid: 3de4895b30025a0439d2a3b58a491abd, type: 2}
     response: (continue)
-  events:
-  - {fileID: 11400000, guid: 0eb762b48e35e664c9a1986c42b77c30, type: 2}
+  events: []
   occasions: []
+  castChanges:
+  - actor: {fileID: 11400000, guid: 1638792fd8e0bb24d9f94a1f28414921, type: 2}
+    active: 0

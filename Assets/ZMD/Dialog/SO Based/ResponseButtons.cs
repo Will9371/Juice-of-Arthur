@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace ZMD.Dialog
@@ -33,30 +34,12 @@ namespace ZMD.Dialog
 
         public void Refresh(DialogNode node)
         {
-            var nodeResponseCount = node.responses.Length;
-        
-            if (nodeResponseCount == 1)
-            {
-                singleResponse.gameObject.SetActive(true);
-                singleResponse.SetText(node.responses[0].response);
-            }
-            else
-            {
-                for (int i = 0; i < responses.Length; i++)
-                {
-                    var withinList = i < nodeResponseCount;
-                    responses[i].gameObject.SetActive(withinList);
-                    if (withinList) responses[i].SetText(node.responses[i].response);
-                }   
-            }
+            List<int> validResponses = node.GetValidResponses();
+                    
+            if (validResponses.Count == 1)
+                singleResponse.Activate(node.GetResponse(validResponses[0]));
+            else foreach (var index in validResponses)
+                responses[index].Activate(node.GetResponse(index));
         }
-        
-        /*void OnValidate()
-        {
-            for (int i = 0; i < responses.Length; i++)
-                responses[i].responseId = i;
-                
-            singleResponse.responseId = 0;
-        }*/
     }
 }

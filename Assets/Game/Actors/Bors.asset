@@ -191,7 +191,7 @@ MonoBehaviour:
       fear:
         value: 0
       trust:
-        value: -0.2
+        value: -0.1
     npcReactions: []
   - occasion: {fileID: 11400000, guid: 3584a860931b73540af0ea3732755bd4, type: 2}
     impactToPlayer:
@@ -200,14 +200,14 @@ MonoBehaviour:
       fear:
         value: 0
       trust:
-        value: 0.1
+        value: 0.3
     npcReactions: []
   - occasion: {fileID: 11400000, guid: aaeb275779ce18547984c97f508cfb65, type: 2}
     impactToPlayer:
       affection:
         value: 0
       fear:
-        value: -0.2
+        value: 0
       trust:
         value: -0.1
     npcReactions:
@@ -227,15 +227,7 @@ MonoBehaviour:
         value: 0
       trust:
         value: 0.1
-    npcReactions:
-    - actor: {fileID: 11400000, guid: aa45740f35e0d4748bdf2387b7c9fe73, type: 2}
-      impact:
-        affection:
-          value: 0
-        fear:
-          value: 0
-        trust:
-          value: 0.15
+    npcReactions: []
   - occasion: {fileID: 11400000, guid: 6ee4ca4c9760630438b0a6d43a2e1ebd, type: 2}
     impactToPlayer:
       affection:
@@ -244,15 +236,7 @@ MonoBehaviour:
         value: 0
       trust:
         value: -0.1
-    npcReactions:
-    - actor: {fileID: 11400000, guid: aa45740f35e0d4748bdf2387b7c9fe73, type: 2}
-      impact:
-        affection:
-          value: 0
-        fear:
-          value: 0
-        trust:
-          value: 0.15
+    npcReactions: []
   - occasion: {fileID: 11400000, guid: 5c48a8dddd23c1d4591359e30be460b8, type: 2}
     impactToPlayer:
       affection:
@@ -260,31 +244,15 @@ MonoBehaviour:
       fear:
         value: 0.2
       trust:
-        value: -0.1
-    npcReactions:
-    - actor: {fileID: 11400000, guid: aa45740f35e0d4748bdf2387b7c9fe73, type: 2}
-      impact:
-        affection:
-          value: 0
-        fear:
-          value: 0
-        trust:
-          value: 0.15
+        value: 0
+    npcReactions: []
   - occasion: {fileID: 11400000, guid: a28c520e3ef8907408db25e6c6f58403, type: 2}
     impactToPlayer:
       affection:
         value: 0
       fear:
-        value: -0.2
+        value: 0
       trust:
         value: -0.4
-    npcReactions:
-    - actor: {fileID: 11400000, guid: aa45740f35e0d4748bdf2387b7c9fe73, type: 2}
-      impact:
-        affection:
-          value: 0
-        fear:
-          value: 0
-        trust:
-          value: 0.15
+    npcReactions: []
   validate: 0
